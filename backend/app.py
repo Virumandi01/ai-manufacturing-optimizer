@@ -328,12 +328,6 @@ def add_machine():
             conn.close()
 
 # --- API Endpoint 6: AI Optimization ---
-# ai_scheduler_backend/app.py
-
-# ... (rest of the code) ...
-
-# --- API Endpoint 6: AI Optimization ---
-# --- API Endpoint 6: AI Optimization ---
 @app.route('/api/optimize', methods=['POST'])
 def run_optimization():
     conn = get_db_connection()
@@ -713,5 +707,4 @@ def delete_machine(machine_id):
 
 # --- Run the Flask Application ---
 if __name__ == '__main__':
-    # Flask will run on http://127.0.0.1:5000/
     app.run(debug=True, host='0.0.0.0')
