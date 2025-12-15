@@ -7,8 +7,9 @@ import '../models/task.dart';
 import '../models/machine.dart'; // added if eeror        delete
 
 // IMPORTANT: Use the correct base URL. 
-// If using Android Emulator, change to 'http://10.0.2.2:5000'
-const String _host = 'https://monoeciously-unsoundable-karson.ngrok-free.dev';
+// If using Android Emulator, change to respected code
+const String _host = // Here you need to add your host id ;
+// use n gork for mobile usahe of the app with laptop as server.
 const String _baseUrl = '$_host/api'; // Used for fetching and optimization
 
 class DropdownTask {
